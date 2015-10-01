@@ -1,0 +1,442 @@
+{
+    "JSChart": {
+        "datasets": [
+            {
+                "type": "line",
+                "id": "blue",
+                "data": [
+                    {
+                        "unit": "Tue Sep 29 2015 14:02:2",
+                        "value": "22.33"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:07:3",
+                        "value": "21.51"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:12:4",
+                        "value": "20.79"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:17:5",
+                        "value": "18.46"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:22:2",
+                        "value": "21.78"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:27:3",
+                        "value": "18.51"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:32:3",
+                        "value": "19.09"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:37:4",
+                        "value": "18.60"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:42:5",
+                        "value": "20.80"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:47:1",
+                        "value": "19.91"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:52:2",
+                        "value": "21.29"
+                    }
+                ]
+            },
+            {
+                "type": "line",
+                "id": "orange",
+                "data": [
+                    {
+                        "unit": "Tue Sep 29 2015 14:03:2",
+                        "value": "21.71"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:08:3",
+                        "value": "21.39"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:13:4",
+                        "value": "19.84"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:18:5",
+                        "value": "20.04"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:23:2",
+                        "value": "21.77"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:28:3",
+                        "value": "21.74"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:33:3",
+                        "value": "21.82"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:38:4",
+                        "value": "20.84"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:42:5",
+                        "value": "22.56"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:48:1",
+                        "value": "19.38"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:53:2",
+                        "value": "21.67"
+                    }
+                ]
+            },
+            {
+                "type": "line",
+                "id": "green",
+                "data": [
+                    {
+                        "unit": "Tue Sep 29 2015 14:04:2",
+                        "value": "20.17"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:09:3",
+                        "value": "20.47"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:14:4",
+                        "value": "19.15"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:19:5",
+                        "value": "21.99"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:24:2",
+                        "value": "20.41"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:29:3",
+                        "value": "18.92"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:34:3",
+                        "value": "18.56"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:39:4",
+                        "value": "18.65"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:44:5",
+                        "value": "19.54"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:49:1",
+                        "value": "21.74"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:53:2",
+                        "value": "19.79"
+                    }
+                ]
+            },
+            {
+                "type": "line",
+                "id": "purple",
+                "data": [
+                    {
+                        "unit": "Tue Sep 29 2015 14:02:2",
+                        "value": "20.46"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:07:3",
+                        "value": "19.49"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:12:4",
+                        "value": "21.87"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:17:5",
+                        "value": "20.21"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:22:2",
+                        "value": "23.28"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:27:3",
+                        "value": "21.68"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:32:3",
+                        "value": "24.08"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:37:4",
+                        "value": "22.84"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:42:5",
+                        "value": "24.87"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:47:1",
+                        "value": "22.48"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:52:2",
+                        "value": "20.88"
+                    }
+                ]
+            },
+            {
+                "type": "line",
+                "id": "gray",
+                "data": [
+                    {
+                        "unit": "Tue Sep 29 2015 14:01:2",
+                        "value": "22.84"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:06:3",
+                        "value": "19.82"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:11:4",
+                        "value": "21.69"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:16:5",
+                        "value": "20.78"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:21:2",
+                        "value": "20.19"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:26:3",
+                        "value": "21.92"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:31:3",
+                        "value": "20.06"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:36:4",
+                        "value": "20.54"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:41:5",
+                        "value": "18.67"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:46:1",
+                        "value": "19.72"
+                    },
+                    {
+                        "unit": "Tue Sep 29 2015 14:51:2",
+                        "value": "18.25"
+                    }
+                ]
+            }
+        ],
+        "optionset": [
+            {
+                "set": "setSize",
+                "value": "1550, 550"
+            },
+            {
+                "set": "setAxisValuesNumberY",
+                "value": "21"
+            },
+            {
+                "set": "setAxisNameY",
+                "value": "'Temperture/°C'"
+            },
+            {
+                "set": "setIntervalStartY",
+                "value": "0"
+            },
+            {
+                "set": "setIntervalEndY",
+                "value": "40"
+            },
+            {
+                "set": "setLabelX",
+                "value": "[2,'20']"
+            },
+            {
+                "set": "setLabelX",
+                "value": "[4,'40']"
+            },
+            {
+                "set": "setLabelX",
+                "value": "[6,'60']"
+            },
+            {
+                "set": "setLabelX",
+                "value": "[8,'80']"
+            },
+            {
+                "set": "setLabelX",
+                "value": "[10,'100']"
+            },
+            {
+                "set": "setLabelX",
+                "value": "[12,'110']"
+            },
+            {
+                "set": "setLabelX",
+                "value": "[14,'120']"
+            },
+            {
+                "set": "setLabelX",
+                "value": "[14,'130']"
+            },
+            {
+                "set": "setAxisValuesNumberX",
+                "value": "8"
+            },
+            {
+                "set": "setAxisNameX",
+                "value": "'Time'"
+            },
+            {
+                "set": "setShowXValues",
+                "value": "false"
+            },
+            {
+                "set": "setTitleColor",
+                "value": "'#454545'"
+            },
+            {
+                "set": "setAxisValuesColor",
+                "value": "'#454545'"
+            },
+            {
+                "set": "setLineColor",
+                "value": "'#A4D314', 'green'"
+            },
+            {
+                "set": "setLineColor",
+                "value": "'#BBBBBB', 'gray'"
+            },
+            {
+                "set": "setLineColor",
+                "value": "'#9900CC', 'purple'"
+            },
+            {
+                "set": "setLineColor",
+                "value": "'#CC6633', 'orange'"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[1,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[2,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[2.8,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[3,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[4,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[5,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[6,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[7,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[8,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[9,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[10,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[11,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[12,' ']"
+            },
+            {
+                "set": "setTooltip",
+                "value": "[13,' ']"
+            },
+            {
+                "set": "setFlagColor",
+                "value": "'#9D14FC'"
+            },
+            {
+                "set": "setFlagRadius",
+                "value": "4"
+            },
+            {
+                "set": "setAxisPaddingRight",
+                "value": "100"
+            },
+            {
+                "set": "setLegendShow",
+                "value": "true"
+            },
+            {
+                "set": "setLegendPosition",
+                "value": "490, 80"
+            },
+            {
+                "set": "setLegendForLine",
+                "value": "'blue', 'SensorA'"
+            },
+            {
+                "set": "setLegendForLine",
+                "value": "'green', 'SensorB'"
+            },
+            {
+                "set": "setLegendForLine",
+                "value": "'orange', 'SensorC'"
+            },
+            {
+                "set": "setLegendForLine",
+                "value": "'purple', 'SensorD'"
+            },
+            {
+                "set": "setLegendForLine",
+                "value": "'gray', 'Average'"
+            }
+        ]
+    }
+}

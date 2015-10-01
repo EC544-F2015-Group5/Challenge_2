@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>Temperature</title>
+        <script src="./jquery-1.11.3.js"></script>
+        <script src="./jquery-ui.js"></script>
+        <script type="text/javascript" src="./canvasjs.min.js"></script>
+        <link rel="stylesheet" href="./jquery-ui.css">
+<!--         <link rel="stylesheet" href="./temperature.css"> -->
+        <link rel="stylesheet" href="./perfect.css">
+        <link rel="stylesheet" type="text/css" media="all" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jquery-ui.css"    />
+
+        <script>
+  $(function() {
+    /*set up date calender*/
+    $("#datepickerStart1" ).datepicker();
+    $("#datepickerStart2" ).datepicker();
+    $("#datepickerStart3" ).datepicker();
+    $("#tab_his").addClass("change");
+    /*At first, hide TimeShower div */
+    $("#TimeShower").hide();
+
+    /*Show corresponding div after clicking tabs*/
+
+    $("#select_day").click(function() {
+        $("#DayShower").show();
+        $("#TimeShower").hide();
+        $('#datepickerStart1').datepicker('setDate', null);
+        $('#datepickerStart2').datepicker('setDate', null);
+
+    });
+
+    $("#select_hour").click(function() {
+        $("#TimeShower").show();
+        $("#DayShower").hide();
+        $('#datepickerStart3').datepicker('setDate', null);
+        $('#TimeList option:eq(0)').attr('selected','selected');        
+    });
+
+
+
+    $("#tab_his").click(function(){
+        $("#tab_his").addClass("change");
+        $("#tab_real").removeClass("change");
+    });
+    $("#tab_real").click(function(){
+        $("#tab_his").removeClass("change");
+        $("#tab_real").addClass("change");
+    });
+
+    $("submit").click(function(){
+
+    });
+    
+    
+  });
+
+  </script>
+
+     <script type="text/javascript">
+      function click2(){
+           if(document.getElementById('TimeList').selectedIndex == 1){
+
+          window.open('history.html');}
+                     if(document.getElementById('TimeList').selectedIndex == 2){
+
+          window.open('history1.html');}
+                     if(document.getElementById('TimeList').selectedIndex == 3){
+
+          window.open('history2.html');}
+                     if(document.getElementById('TimeList').selectedIndex == 4){
+
+          window.open('history3.html');}
+                     if(document.getElementById('TimeList').selectedIndex == 5){
+
+          window.open('current.html');}
+                     if(document.getElementById('TimeList').selectedIndex == 6){
+
+          window.open('history5.html');}
+                     if(document.getElementById('TimeList').selectedIndex == 7){
+
+          window.open('history6.html');}
+                     if(document.getElementById('TimeList').selectedIndex == 8){
+
+          window.open('history7.html');
+        }
+         // if (document.getElementById("datepickerStart3").options[document.getElementById("selectID").selectedIndex].value == 1) {  
+    // var myChart = new JSChart('graph', 'bar');
+    // myChart.setDataJSON("data.json");
+    // myChart.draw();
+    
+    // function callback() {
+    //     alert('User click');
+    // } 
+     }
+   </script>
+
+	</head>
+
+	<body>
+        
+
+		<div class="container">
+            <nav class="navbar">
+                <ul class="clearfix">
+                    <li id="tab_his">
+                        <a id="his" href="#">Historical Temp</a>
+                            <ul class="tab" id="dropList">
+                                <li id="select_day"><a href="#">Days</a></li>
+                                <li id="select_hour"><a href="#">Hours</a></li>                    
+                           </ul>
+                    </li>
+                </ul>
+            </nav>      
+        </div>
+
+        
+        <div id="DayShower">
+
+            Start date: <input type="text" id="datepickerStart1" />
+            End date: <input type="text" id="datepickerStart2" />
+            <input type="button" onclick="click1()" id="submit" value="Search"> 
+        </div>
+        <div id="TimeShower">
+
+            Please pick a day: <input type="text" id="datepickerStart3" />
+            Please pick a time range: 
+            <select name="times" id="TimeList">
+                <option class="note" value="note">Select time</option>
+                <option value="ten">10:00-11:00</option>
+                <option value="eleven">11:00-12:00</option>
+                <option value="twelve">12:00-13:00</option>
+                <option value="thriteen">13:00-14:00</option>
+                <option value="fourteen">14:00-15:00</option>
+                <option value="fifteen">15:00-16:00</option>
+                <option value="sixteen">16:00-17:00</option>
+            </select>
+
+            <input type="button" onclick="click2()" id="submit" value="Search"> 
+        </div>
+        <div id="ht" ></div>
+
+        <!--         <div ><div id="graph">Loading...</div>
+
+
+<script type="text/javascript">
+if (document.getElementById("datepickerStart3").options[document.getElementById("selectID").selectedIndex].value == 1) {  
+                      var myChart = new JSChart('graph', 'bar');
+    myChart.setDataJSON("data.json");
+    myChart.draw();
+    
+    function callback() {
+        alert('User click');
+    } 
+
+</script></div> -->
+	</body>
+	
+</html>
