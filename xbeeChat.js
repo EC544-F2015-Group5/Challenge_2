@@ -1,4 +1,4 @@
-var SerialPort = require("serialport");///
+var SerialPort = require("serialport");//////////
 var express = require('express');
 var app = require('express')();
 var http = require('http').Server(app);
